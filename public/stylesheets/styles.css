@@ -300,8 +300,8 @@ a {
   .dropdown__submenu {
     max-height: initial;
     overflow: initial;
-    position: absolute;
-    left: 0;
+    position: fixed;
+    left: 85%;
     top: 6rem;
     opacity: 0;
     pointer-events: none;
