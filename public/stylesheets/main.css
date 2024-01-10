@@ -4,6 +4,10 @@
  * Copyright 2014-2021 Froala Labs
  */
 
+ .MarginRightCustom{
+  margin-right: 80px !important;
+ }
+
  .fr-clearfix::after {
     clear: both;
     display: block;
@@ -15083,8 +15087,8 @@
   }
   .u-file-icon img {
     object-fit: contain;
-    width: 100%;
-    height: 100%;
+    width: 130%;
+    height: 130%;
   }
   .u-back-to-top {
     position: fixed;
