@@ -14,7 +14,8 @@
   }
   
   .contact-container{
-    margin-top: 10%;
+    margin-bottom: 20% !important;
+    margin-top: 2% !important;
     width: 90%;
     height: 100vh;
     margin: auto;
@@ -166,6 +167,6 @@
     }
 
     .contact-container{
-        margin-bottom: 250%;
+        margin-bottom: 275%;
     }
   }

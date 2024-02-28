@@ -25,6 +25,10 @@ app.get('/about', function(req, res){
     res.render('about');
 })
 
+app.get('/reviews', function(req, res){
+    res.render('review');
+})
+
 app.get('/contact', function(req, res){
     res.render('contact');
 })

@@ -29,15 +29,14 @@
 }
 
 .imageSize{
-  max-width: 100vw;
-  margin-left: 50px;
+  max-width: 77vw;
 }
 
 .exploreBox {
   display: block;
-  align-items: center;
-  justify-content: center;
-  min-height: 100vh;
+  margin-left: auto;
+  margin-right: auto;
+  width: 78%;
   background: #f1f4fd;
 }
 .container {
