@@ -14,7 +14,6 @@
   }
   
   .contact-container{
-    margin-bottom: 20% !important;
     margin-top: 2% !important;
     width: 90%;
     height: 100vh;
@@ -142,6 +141,7 @@
   }
   
   .submit-btn{
+    margin-top: 14px;
     padding: 1rem 2.4rem;
     font-weight: 700;
     text-align: center;
@@ -150,6 +150,10 @@
     border-radius: 40px;
     cursor: pointer;
     transition: all 0.2s;
+  }
+
+  .map{
+    padding-top: 55px;
   }
 
   @media (max-width: 768px) {
@@ -168,5 +172,29 @@
 
     .contact-container{
         margin-bottom: 275%;
+    }
+  }
+  
+  @media (max-height: 844px){
+    .u-footer{
+      margin-top: 129px;
+    }
+  }
+
+  @media (max-height: 740px){
+    .u-footer{
+      margin-top: 450px;
+    }
+  }
+
+  @media (max-height: 667px){
+    .u-footer{
+      margin-top: 1490px;
+    }
+  }
+
+  @media (max-height: 653px){
+    .u-footer{
+      margin-top: 1590px;
     }
   }

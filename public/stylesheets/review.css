@@ -1,3 +1,19 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  flex: 1;
+}
+
 .text-pos-adjustment{
     text-align: center;
 }
@@ -265,6 +281,10 @@
   }
   
   @media (max-width: 991px) {
+    footer {
+      margin-top: 133vh;
+    }
+
     .u-section-1 .u-text-1 {
       font-size: 3rem;
       margin-left: calc(((100% - 720px) / 2));
