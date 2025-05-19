@@ -152,11 +152,11 @@
     transition: all 0.2s;
   }
 
-  .map{
+.map{
     padding-top: 55px;
-  }
+}
 
-  @media (max-width: 768px) {
+@media (max-width: 768px) {
     .contact-inner-container {
       flex-direction: column;
     }
@@ -174,7 +174,7 @@
         margin-bottom: 275%;
     }
   }
-  
+
   @media (max-height: 844px){
     .u-footer{
       margin-top: 129px;
@@ -183,7 +183,7 @@
 
   @media (max-height: 740px){
     .u-footer{
-      margin-top: 450px;
+      margin-top: 451px;
     }
   }
 
